@@ -11,3 +11,15 @@ The original study presented a methodology for schema discovery in NoSQL databas
 ## Reproduction Objective
 
 The aim of this reproduction study is to validate the findings of the original paper, specifically focusing on the processing time evaluation of the JSON Schema Discovery approach. This involves replicating the original experiments and comparing the outcomes.
+
+## Building the Report
+
+This project includes a Makefile for building the LaTex report. The Makefile defines two primary targets: `report` for compiling the LaTeX document into a PDF, and `clean` for removing all intermediate files generated during the build process.
+
+```bash
+make report
+```
+
+```bash
+make clean
+```
